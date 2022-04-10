@@ -52,7 +52,7 @@
   }
   
   header nav ul li a {
-      margin: 0 30px;
+      padding: 10px 15px;
       font-weight: lighter;
       font-size: 1.55vw;
       color: var(--header-color);
@@ -73,25 +73,7 @@
   /*HEADER END*/
   
   /*FOOTER START*/
-  footer {
-    width: 100%;
-    padding: 40px 35px;
-    width: 100%;
-    padding: 40px 35px;
-    display: flex;
-    flex-wrap: wrap;
-  }
-  
-  footer h2 {
-    color: #024e76;
-    font-size: 30px;
-    margin: 0;
-  }
-  
-  footer div {
-    line-height: 1.5;
-    text-align: right;
-  }
+
   
   /*FOOTER END*/
   
@@ -102,6 +84,7 @@
       background-size: cover;
       background-position: center;
       text-align: right;
+      align-items: flex-start;
     }
   
   .hero img {
