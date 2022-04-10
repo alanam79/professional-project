@@ -38,8 +38,8 @@
   }
   
   header a {
-      text-decoration: none;
-      color: #15bec4;
+    text-decoration: none;
+    color: #15bec4;
     }
   
   header nav ul{
@@ -51,16 +51,16 @@
   }
   
   header nav ul li a {
-      margin: 0 30px;
-      font-weight: lighter;
-      font-size: 1.55vw;
-      color: var(--header-color);
-      background-image: linear-gradient(270deg, var(--name-color) 0%, var(--name-color) 100%);
-      background-repeat: no-repeat;
-      background-size: 100%;
-      background-position: bottom;
-      transition: all 0.25s ease-in;
-      text-decoration: underline;
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+    color: var(--header-color);
+    background-image: linear-gradient(270deg, var(--name-color) 0%, var(--name-color) 100%);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: bottom;
+    transition: all 0.25s ease-in;
+    text-decoration: underline;
     }
   
   header nav ul li a:hover {
@@ -69,6 +69,7 @@
     background-size: 100% 100%;
     text-decoration: none;
   }
+
   /*HEADER END*/
   
   /*FOOTER START*/
