@@ -74,32 +74,32 @@
   
   /*FOOTER START*/
   footer {
-    width: 100%;
-    padding: 40px 35px;
-    width: 100%;
-    padding: 40px 35px;
+    padding-left: 10px;
+    padding-top: 30px;
     display: flex;
     flex-wrap: wrap;
-    align-items: baseline;
-    align-content: stretch;
+    align-items: center;
+    align-content: flex-end;
+    flex-direction: row;
     justify-content: space-between;
   }
   
   footer h2 {
     color: #024e76;
     font-size: 30px;
-    margin: 0;
-    padding: 0 10px;
+    margin: 7px 0;
     border-right: 3px solid #024e76;
-    display: flex;
-    flex-wrap: wrap;
+    padding: 0 10px;
   }
   
-  footer div {
+  footer ul {
     line-height: 1.5;
-    text-align: right;
+    list-style: none;
+    color:#245b69;
+    font-size: 22px;
+    padding-right: 50px;
   }
-  
+
   /*FOOTER END*/
   
   /* Hero Style Start */
@@ -137,14 +137,17 @@
   /*ABOUT ME START*/
   .about-me {
     color: #245b69;
+    display: flex;
+    flex-wrap: wrap;
   }
   .about-me h2 {
       line-height: 1.5;
-      width: 80%;
       font-size: 35px;
       font-family:Arial, Helvetica, sans-serif;
       margin: 0 20px 10px 20px;
       text-align: left;
+      border-right: 3px solid #024e76;
+      padding-right: 21px;
   }
   
   .about-me p {
@@ -159,16 +162,23 @@
   /*WORK START*/
   .work {
     color:#245b69;
+    display: flex;
+    flex-wrap: wrap;
+    
   }
   .work h2 {
     line-height: 1.5;
-    width: 80%;
     font-size: 35px;
     font-family:Arial, Helvetica, sans-serif;
     margin: 0 20px 10px 20px;
+    padding-right: 35px;
     text-align: left;
+    border-right: 3px solid #024e76
   }
   
+  .work-img {
+      width: 10%;
+  }
   /*WORK START*/
   
   
