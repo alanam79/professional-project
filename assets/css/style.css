@@ -73,32 +73,6 @@
   /*HEADER END*/
   
   /*FOOTER START*/
-  footer {
-    padding-left: 10px;
-    padding-top: 30px;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    align-content: flex-end;
-    flex-direction: row;
-    justify-content: space-between;
-  }
-  
-  footer h2 {
-    color: #024e76;
-    font-size: 30px;
-    margin: 7px 0;
-    border-right: 3px solid #024e76;
-    padding: 0 10px;
-  }
-  
-  footer ul {
-    line-height: 1.5;
-    list-style: none;
-    color:#245b69;
-    font-size: 22px;
-    padding-right: 50px;
-  }
 
   /*FOOTER END*/
   
@@ -181,5 +155,30 @@
   }
   /*WORK START*/
   
+  /*CONTACT ME*/
+  .contact {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: flex-end;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
   
+  .contact h2 {
+    color: #024e76;
+    font-size: 30px;
+    margin: 7px 0;
+    border-right: 3px solid #024e76;
+    padding: 0 10px;
+  }
   
+  .contact ul {
+    line-height: 1.5;
+    list-style: none;
+    color:#245b69;
+    font-size: 22px;
+    padding-left: 200px;
+  }
+
+  /*CONTACT ME END*/
