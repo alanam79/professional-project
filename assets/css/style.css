@@ -101,6 +101,11 @@
       background-size: cover;
       background-position: center;
       text-align: right;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-content: stretch;
+      align-items: center;
     }
   
   .hero img {
@@ -110,7 +115,8 @@
   }
   
   .steelers {
-    float: right;
+    margin: 50px 200px;
+    display: in-line;
   }
   
   .hero h2 {
