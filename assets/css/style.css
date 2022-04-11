@@ -78,7 +78,6 @@
   /* Hero Style Start */
   .hero {
       background-image: url("../images/wood-591631__480.jpg");
-      height: 300px;
       background-size: cover;
       background-position: center;
       text-align: right;
@@ -90,14 +89,19 @@
     }
   
   .hero img {
-      height: 250px;
+      width: 50%;
       margin: 10px 20px 10px 20px;
       float: left;
+  }
+
+  .img {
+    width: 50%;
   }
   
   .steelers {
     margin: 50px 200px;
-    display: in-line;
+    display: inline;
+    margin-right: 400px;
   }
   
   .hero h2 {
@@ -211,10 +215,6 @@
     width: 100%;
     text-align: center;
     }
-          
-    .hero-cta {
-    text-align: center;  
-    }  
 
     .section-title {
         width: 80%;
@@ -233,6 +233,7 @@
     .work h2 {
         flex: 1 100%;
         text-align: center;
+    }
     
     .work-img {
         flex: 0 32%;
@@ -240,7 +241,14 @@
         margin-top: 15px;
         margin-bottom: 15px;
     }
-    
+
+    .hero {
+      flex-direction: column;
+    }
+
+    .steelers {
+      margin-right: 200px;
+    }
  }
   
   /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
