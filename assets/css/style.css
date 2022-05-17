@@ -40,7 +40,7 @@ body {
 }
 
 .img-project-1 {
-  width: 30%;
+  width: 50%;
   height: 30%;
 }
 
@@ -100,6 +100,13 @@ body {
   border-right: 3px solid #024e76;
 }
 
+.box {
+background-color: #fff;
+width: 300px;
+border: 15px solid #0a0a0a
+padding: 50px;
+margin: 20px;
+}
 
 /*CONTACT ME*/
 .contact {
@@ -149,7 +156,6 @@ body {
   color: #fefefe;
   text-shadow: 1px 1px 2px #0a0a0a;
 }
-
 
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
@@ -267,7 +273,7 @@ body {
         -ms-transform: translateY(-50%);
             transform: translateY(-50%);
   }
-  .topbar-responsive .top-bar-title span .menu-icon {
+  .topbar-responsive .top-bar-title span {
     margin-bottom: 4px;
   }
 }
