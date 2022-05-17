@@ -42,11 +42,14 @@ body {
 .img-project-1 {
   width: 50%;
   height: 30%;
+  border-radius: 5px;
+  border-style: solid 15px #000;
 }
 
 .img-project-2 {
   width: 50%;
   height: 50%;
+  border-radius: 5px;
 }
 
 .hero-h2 {
@@ -273,7 +276,7 @@ margin: 20px;
         -ms-transform: translateY(-50%);
             transform: translateY(-50%);
   }
-  .topbar-responsive .top-bar-title span {
+  .topbar-responsive .top-bar-title span .menu-icon {
     margin-bottom: 4px;
   }
 }
