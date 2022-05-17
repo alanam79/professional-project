@@ -43,7 +43,6 @@ body {
   width: 50%;
   height: 30%;
   border-radius: 5px;
-  border-style: solid 15px #000;
 }
 
 .img-project-2 {
@@ -51,6 +50,7 @@ body {
   height: 50%;
   border-radius: 5px;
 }
+
 
 .hero-h2 {
   background: #15bec4;
@@ -106,7 +106,7 @@ body {
 .box {
 background-color: #fff;
 width: 300px;
-border: 15px solid #0a0a0a
+border: 15px solid #0a0a0a;
 padding: 50px;
 margin: 20px;
 }
