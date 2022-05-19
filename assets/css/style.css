@@ -20,6 +20,9 @@ body {
   width: auto;
 } */
 
+.card-title{
+  margin-left: 5rem;
+}
 
 .img-selfie {
   width: 20%;
