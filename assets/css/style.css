@@ -69,6 +69,14 @@ header nav ul li a {
   border-radius: 5px;
 }
 
+.img-thumbnail-1 {
+  max-width: 50%
+}
+
+.img-thumbnail-2 {
+  max-width: 70%
+}
+
 /*ABOUT ME START*/
 .about-me {
   color: #245b69;
@@ -151,10 +159,11 @@ header nav ul li a {
 /* Hero Style Start */
 .hero {
   background-image: url("/assets/images/pexels-roberto-nickson-2775196.jpg");
-  height: 600px;
   background-size: cover;
   background-position: center;
-  position:relative;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 /* Hero Style End */
 
@@ -206,6 +215,7 @@ section {
   margin: 0 auto;
 }
 
+
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 @media screen and (max-width: 980px) {
   .header {
@@ -232,47 +242,24 @@ section {
 
 /* FOOTER START */
 footer {
-  background: #181500;
+  display: flex;
   width: 100%;
   padding: 40px 35px;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
-footer h3 {
-  display: center;
-  color: #ebf1f4;
+footer h2 {
+  color: #024e76;
   font-size: 30px;
   margin: 0;
 }
 
-footer div { 
+footer div {
   line-height: 1.5;
-  text-align: center;
-}
-
-footer a, address {
-  display: center;
-  color: #ebf1f4;
+  text-align: right;
 }
 /* FOOTER END */
-
-
-  .about-me h2 {
-    flex: 1 100%;
-    text-align: center;
-  }
-
-  .work-h2 {
-    flex: 1 100%;
-    text-align: center;
-  }
-
-  .hero {
-    flex-direction: column;
-  }
-
-  .steelers {
-    margin-right: 200px;
-  }
 
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
 @media screen and (max-width: 575px) {
@@ -285,4 +272,3 @@ footer a, address {
   section {
     padding: 30px 15px;
   }
-}
