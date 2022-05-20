@@ -158,7 +158,7 @@ header nav ul li a {
 
 /* Hero Style Start */
 .hero {
-  background-image: url("/assets/images/pexels-roberto-nickson-2775196.jpg");
+  background-image: url("..images/pexels-roberto-nickson-2775196.jpg");
   background-size: cover;
   background-position: center;
   display: flex;
