@@ -19,6 +19,6 @@ A single location where my work can be displayed for anyone who may be intereste
 [![3.jpg](https://i.postimg.cc/Y92N8r8g/3.jpg)](https://postimg.cc/B8y1nGrQ)
 
 ## Contribution
-Made with ❤️ by Alana McKeel with the amazing help of Shaun Green and photo credit to Robert Nickson
+Made with ❤️ by Alana McKeel with the amazing help of Shaun Green and photo credit to Roberto Nickson
 
 ### ©️2022 Run Buddy, Inc 
