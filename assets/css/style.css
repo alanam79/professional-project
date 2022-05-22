@@ -167,7 +167,7 @@ header nav ul li a {
 }
 /* Hero Style End */
 
-section {
+.section {
   padding: 60px;
 }
 
@@ -216,6 +216,10 @@ section {
   margin: 0 auto;
 }
 
+h4 {
+  color: #000;
+  text-decoration: none;
+}
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 @media screen and (max-width: 980px) {
