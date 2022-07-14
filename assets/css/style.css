@@ -69,11 +69,11 @@ header nav ul li a {
 }
 
 .img-thumbnail-1 {
-  max-width: 50%
+  max-width: 50%;
 }
 
 .img-thumbnail-2 {
-  max-width: 70%
+  max-width: 70%;
 }
 
 /*ABOUT ME START*/
@@ -103,13 +103,13 @@ header nav ul li a {
 
 .card {
   /* Add shadows to create the "card" effect */
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
 }
 
 /* On mouse-over, add a deeper shadow */
 .card:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
 /* Add some padding inside the card container */
@@ -229,7 +229,6 @@ section {
   margin: 0 auto;
 }
 
-
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 @media screen and (max-width: 980px) {
   .header {
@@ -250,35 +249,36 @@ section {
     justify-content: center;
   }
 
-.top-bar-right {
-  text-decoration: none;
-}
-
-/* FOOTER START */
-footer {
-  display: flex;
-  width: 100%;
-  padding: 40px 35px;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
-
-footer h2 {
-  color: #024e76;
-  font-size: 30px;
-  margin: 0;
-}
-/* FOOTER END */
-
-/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
-@media screen and (max-width: 575px) {
-  .class h2 {
-    width: 95%;
+  .top-bar-right {
+    text-decoration: none;
   }
-}
 
-@media screen and (max-width: 768px) {
-  section {
-    padding: 30px 15px;
+  /* FOOTER START */
+  footer {
+    display: flex;
+    /* width: 100%; */
+    padding: 40px 35px;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+  }
+
+  footer h2 {
+    color: #024e76;
+    font-size: 30px;
+    margin: 0;
+  }
+  /* FOOTER END */
+
+  /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+  @media screen and (max-width: 575px) {
+    .class h2 {
+      width: 95%;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    section {
+      padding: 30px 15px;
+    }
   }
 }
