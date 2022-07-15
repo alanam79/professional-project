@@ -181,11 +181,12 @@ header nav ul li a {
   width: 80%;
   font-size: 20px;
   margin: 0 auto;
+  text-shadow: 1px 1px 5px rgba(255, 255, 255, 0.815);
 }
 
-/* .contact-section (
+.contact-header {
   text-align: center;
-) */
+}
 
 .contact-me {
   display: flex;
