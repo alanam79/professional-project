@@ -58,7 +58,7 @@ header nav ul li a {
 .img-selfie {
   width: 10rem;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
 }
 
 .portfolio-img {
@@ -96,7 +96,6 @@ header nav ul li a {
 
 /*WORK START*/
 
-
 .box {
   background-color: #fff;
   width: 300px;
@@ -107,6 +106,10 @@ header nav ul li a {
 }
 
 /*CONTACT ME*/
+.contact-header {
+  text-align: center;
+}
+
 .contact {
   display: flex;
   flex-wrap: wrap;
