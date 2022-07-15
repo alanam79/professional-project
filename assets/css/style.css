@@ -56,8 +56,9 @@ header nav ul li a {
 }
 
 .img-selfie {
-  width: 5rem;
-  display: center;
+  width: 10rem;
+  display: flex;
+  justify-content: center;
 }
 
 .portfolio-img {
@@ -94,22 +95,7 @@ header nav ul li a {
 /*ABOUT ME end*/
 
 /*WORK START*/
-/* .work {
-  color: #245b69;
-  display: flex;
-  flex-wrap: wrap;
-}
-.work-h2 {
-  line-height: 1.2;
-  width: 80%;
-  font-size: 35px;
-  font-family: Arial, Helvetica, sans-serif;
-  margin: 0 20px 10px 20px;
-  padding-top: 15px;
-  padding-right: 35px;
-  text-align: left;
-  border-right: 3px solid #024e76;
-} */
+
 
 .box {
   background-color: #fff;
@@ -181,7 +167,6 @@ header nav ul li a {
   width: 80%;
   font-size: 20px;
   margin: 0 auto;
-  text-shadow: 1px 1px 5px rgba(255, 255, 255, 0.815);
 }
 
 .contact-header {
