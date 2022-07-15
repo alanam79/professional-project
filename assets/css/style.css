@@ -1,7 +1,7 @@
-:root {
+/* :root {
   --bs-blue: #0dfd95;
   --name-color: #fff;
-}
+} */
 
 * {
   box-sizing: border-box;
@@ -11,7 +11,8 @@
 
 body {
   /* min-height: 100vh; */
-  background-color: var(--bs-blue);
+  /* background-color: var(--bs-blue); */
+  background-image: url(/assets/images/17973908.jpg);
   color: black;
   font-family: Helvetica, Arial, sans-serif;
 }
@@ -21,13 +22,11 @@ header {
   justify-content: space-between;
   flex-wrap: wrap;
   padding: 20px 35px;
-  background: rgb(34,193,195);
-  background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);padding: 20px;
 }
 
 header h1 {
-  font-weight: bold;
-  font-size: 36px;
+  /* font-weight: bold; */
+  /* font-size: 10px; */
   margin: 0;
 }
 
@@ -50,8 +49,6 @@ header nav ul {
 
 header nav ul li a {
   margin: 0 30px;
-  font-weight: lighter;
-  font-size: 1.55vw;
 }
 
 .card-title {
@@ -70,36 +67,37 @@ header nav ul li a {
 }
 
 .img-thumbnail-1 {
+<<<<<<< HEAD
   max-width: 30%;
 }
 
 .img-thumbnail-2 {
   max-width: 50%;
+=======
+  max-width: 50%;
+}
+
+.img-thumbnail-2 {
+  max-width: 70%;
+>>>>>>> develop
 }
 
 /*ABOUT ME START*/
-.about-me {
-  color: #245b69;
-  display: flex;
-  flex-wrap: wrap;
-}
-.about-me-h2 {
-  line-height: 1.2;
-  padding-bottom: 30px;
-  font-size: 35px;
-  font-family: Arial, Helvetica, sans-serif;
-  margin: 0 20px 10px 20px;
-  text-align: left;
-  border-right: 3px solid #024e76;
-  padding-right: 28px;
+
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
 }
 
-.about-me-p {
-  line-height: 1.2;
-  width: 80%;
-  font-size: 15px;
-  margin: 50px 20px 10px 20px;
-  text-align: center;
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+  padding: 2px 16px;
 }
 /*ABOUT ME end*/
 
@@ -157,14 +155,13 @@ header nav ul li a {
 /*CONTACT ME END*/
 
 /* Hero Style Start */
-.hero {
-  background-image: url("../images/pexels-roberto-nickson-2775196.jpg");
+/* .hero {
   background-size: cover;
   background-position: center;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-}
+} */
 /* Hero Style End */
 
 .section {
@@ -177,7 +174,7 @@ header nav ul li a {
 
 
 .intro h3 {
-  font-size: 55px;
+  /* font-size: 55px; */
   color: #000;
   margin-bottom: 35px;
   padding: 0 100px 20px 100px;
@@ -199,7 +196,7 @@ header nav ul li a {
 }
 
 .contact-me h3 {
-  font-size: 55px;
+  /* font-size: 55px; */
   color: #000;
   margin-bottom: 35px;
   padding: 0 100px 20px 100px;
@@ -216,11 +213,14 @@ header nav ul li a {
   margin: 0 auto;
 }
 
+<<<<<<< HEAD
 h4 {
   color: #000;
   text-decoration: none;
 }
 
+=======
+>>>>>>> develop
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 @media screen and (max-width: 980px) {
   .header {
@@ -241,39 +241,36 @@ h4 {
     justify-content: center;
   }
 
-.top-bar-right {
-  text-decoration: none;
-}
+  .top-bar-right {
+    text-decoration: none;
+  }
 
-/* FOOTER START */
-footer {
-  display: flex;
-  width: 100%;
-  padding: 40px 35px;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
+  /* FOOTER START */
+  footer {
+    display: flex;
+    /* width: 100%; */
+    padding: 40px 35px;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+  }
 
-footer h2 {
-  color: #024e76;
-  font-size: 30px;
-  margin: 0;
-}
+  footer h2 {
+    color: #024e76;
+    font-size: 30px;
+    margin: 0;
+  }
+  /* FOOTER END */
 
-footer div {
-  line-height: 1.5;
-  text-align: right;
-}
-/* FOOTER END */
+  /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+  @media screen and (max-width: 575px) {
+    .class h2 {
+      width: 95%;
+    }
+  }
 
-/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
-@media screen and (max-width: 575px) {
-  .class h2 {
-    width: 95%;
+  @media screen and (max-width: 768px) {
+    section {
+      padding: 30px 15px;
+    }
   }
 }
-
-@media screen and (max-width: 768px) {
-  section {
-    padding: 30px 15px;
-  }
