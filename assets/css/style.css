@@ -57,8 +57,9 @@ header nav ul li a {
 
 .img-selfie {
   width: 10rem;
-  display: flex;
-  justify-content: space-around;
+  margin-left: 40px;
+  /* display: flex;
+  justify-content: space-center; */
 }
 
 .portfolio-img {
