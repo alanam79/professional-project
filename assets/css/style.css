@@ -67,19 +67,11 @@ header nav ul li a {
 }
 
 .img-thumbnail-1 {
-<<<<<<< HEAD
-  max-width: 30%;
-}
-
-.img-thumbnail-2 {
-  max-width: 50%;
-=======
   max-width: 50%;
 }
 
 .img-thumbnail-2 {
   max-width: 70%;
->>>>>>> develop
 }
 
 /*ABOUT ME START*/
@@ -102,7 +94,7 @@ header nav ul li a {
 /*ABOUT ME end*/
 
 /*WORK START*/
-.work {
+/* .work {
   color: #245b69;
   display: flex;
   flex-wrap: wrap;
@@ -117,11 +109,12 @@ header nav ul li a {
   padding-right: 35px;
   text-align: left;
   border-right: 3px solid #024e76;
-}
+} */
 
 .box {
   background-color: #fff;
   width: 300px;
+  padding: 20px;
   border: 15px solid #0a0a0a;
   padding: 50px;
   margin: 20px;
@@ -172,7 +165,6 @@ header nav ul li a {
   text-align: center;
 }
 
-
 .intro h3 {
   /* font-size: 55px; */
   color: #000;
@@ -191,8 +183,13 @@ header nav ul li a {
   margin: 0 auto;
 }
 
-.contact-me {
+/* .contact-section (
   text-align: center;
+) */
+
+.contact-me {
+  display: flex;
+  justify-content: center;
 }
 
 .contact-me h3 {
@@ -213,14 +210,6 @@ header nav ul li a {
   margin: 0 auto;
 }
 
-<<<<<<< HEAD
-h4 {
-  color: #000;
-  text-decoration: none;
-}
-
-=======
->>>>>>> develop
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 @media screen and (max-width: 980px) {
   .header {
